@@ -83,6 +83,7 @@ public class articuloDos {
         p.getDatos();
         System.out.println("Precio en UYU: " + pasarAPesos(p));
         System.out.println("Precio + IVA: " + calcularMasIVA(p) + " USD");
+        mostrarSegunOrig(p);
         System.out.println();
 
     }
