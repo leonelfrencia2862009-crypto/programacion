@@ -73,7 +73,7 @@ class Mago extends Personaje{
 }
 
 
-public class Videojuego{
+class Videojuego{
     public static void main(String[] args) {
         Mago miMago = new Mago("Pablo Shazam", 100, 70, 80, 50);
         miMago.lanzarHechizo();
